@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="my.edu.um.mycroft.LoginFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_userid"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:hint="User ID"
+        android:textSize="16dp"
+        android:inputType="text"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/btn_login"
+        android:layout_below="@+id/editText_userid"
+        android:layout_alignStart="@+id/editText_userid"
+        android:layout_alignEnd="@+id/editText_userid" />
+</RelativeLayout>
